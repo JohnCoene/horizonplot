@@ -1,0 +1,5 @@
+dependencies:
+ - name: horizon
+   version: 1.6.1
+   src: htmlwidgets/lib/horizon
+   script: horizon-timeseries-chart.min.js
