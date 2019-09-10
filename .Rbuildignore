@@ -1,2 +1,7 @@
 ^test\.R$
 ^LICENSE\.md$
+^data-raw$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^README\.Rmd$

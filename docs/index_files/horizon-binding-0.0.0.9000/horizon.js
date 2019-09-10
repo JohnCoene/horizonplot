@@ -24,8 +24,6 @@ HTMLWidgets.widget({
         chart = HorizonTSChart();
         chart
             .data(x.data)
-            .width(dom.offsetWidth)
-            .height(dom.offsetHeight)
             .series(x.series)
             .ts(x.ts)
             .val(x.val)
