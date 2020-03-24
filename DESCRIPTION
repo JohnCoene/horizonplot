@@ -1,6 +1,6 @@
-Package: horizon
+Package: horizonplot
 Title: Create Horizon Plots of Time Series
-Version: 0.0.1
+Version: 0.0.1.9999
 Authors@R: person("John", "Coene", email = "jcoenep@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0002-6637-4107"))
 Description: Create horizon plots of time series.
 License: MIT + file LICENSE
