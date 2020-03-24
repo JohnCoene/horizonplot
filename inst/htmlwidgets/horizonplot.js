@@ -1,6 +1,6 @@
 HTMLWidgets.widget({
 
-  name: 'horizon',
+  name: 'horizonplot',
 
   type: 'output',
 

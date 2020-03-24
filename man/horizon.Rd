@@ -4,14 +4,29 @@
 \alias{horizon}
 \title{Initialise}
 \usage{
-horizon(data, ..., utc = TRUE, military = TRUE, bands = 4L,
-  mode = c("offset", "mirror"), normalize = FALSE, scale = 1L,
+horizon(
+  data,
+  ...,
+  utc = TRUE,
+  military = TRUE,
+  bands = 4L,
+  mode = c("offset", "mirror"),
+  normalize = FALSE,
+  scale = 1L,
   positive_colors = c("white", "midnightBlue"),
-  negative_colors = c("white", "crimson"), interpolation_curve = NULL,
-  ruler = TRUE, zoom = FALSE, transition = FALSE,
-  positive_colors_stops = NULL, negative_colors_stops = NULL,
-  aggregation = NULL, extent = NULL, width = "100\%",
-  height = NULL, elementId = NULL)
+  negative_colors = c("white", "crimson"),
+  interpolation_curve = NULL,
+  ruler = TRUE,
+  zoom = FALSE,
+  transition = FALSE,
+  positive_colors_stops = NULL,
+  negative_colors_stops = NULL,
+  aggregation = NULL,
+  extent = NULL,
+  width = "100\%",
+  height = NULL,
+  elementId = NULL
+)
 }
 \arguments{
 \item{data}{A \code{data.frame} or \link[tibble]{tibble}.}

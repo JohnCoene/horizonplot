@@ -4,12 +4,14 @@
 \name{tsdata}
 \alias{tsdata}
 \title{Random data}
-\format{An data.frame object with 5000 rows and 3 columns
+\format{
+An data.frame object with 5000 rows and 3 columns
 \describe{
   \item{\code{date}}{ Date sequence}
   \item{\code{value}}{ A number}
   \item{\code{group}}{ A group name}
-}}
+}
+}
 \usage{
 tsdata
 }

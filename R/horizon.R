@@ -97,11 +97,11 @@ horizon <- function(data, ..., utc = TRUE, military = TRUE, bands = 4L, mode = c
 
   # create widget
   htmlwidgets::createWidget(
-    name = 'horizon',
+    name = 'horizonplot',
     x,
     width = width,
     height = height,
-    package = 'horizon',
+    package = 'horizonplot',
     elementId = elementId,
     preRenderHook = render_horizon,
     sizingPolicy = htmlwidgets::sizingPolicy(

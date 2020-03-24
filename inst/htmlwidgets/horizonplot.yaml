@@ -1,5 +1,5 @@
 dependencies:
- - name: horizon
+ - name: horizonplot
    version: 1.6.1
    src: htmlwidgets/lib/horizon
    script: horizon-timeseries-chart.min.js
