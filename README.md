@@ -13,13 +13,13 @@ Install from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("JohnCoene/horizon")
+remotes::install_github("JohnCoene/horizonplot")
 ```
 
 ## Example
 
 ```r
-library(horizon)
+library(horizonplot)
 
 horizon(tsdata, attrs(x = dates, y = value, group = grp))
 ```
