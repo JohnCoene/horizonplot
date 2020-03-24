@@ -13,7 +13,7 @@ Install from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("JohnCoene/horyzon")
+remotes::install_github("JohnCoene/horizonplot")
 ```
 
 ## Example
